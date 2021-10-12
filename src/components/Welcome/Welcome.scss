@@ -1,0 +1,46 @@
+:root {
+  --typewriterSpeed: 1s;
+  --typewriterCharacters: 24;
+}
+h1 {
+  animation: fade 1s 2.5s;
+  margin-top: 1.6em;
+}
+h1::before,
+h1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgb(235, 235, 235);
+}
+h1::before {
+  background-color: rgb(235, 235, 235);
+  height: 3em;
+  animation: typewriter var(--typewriterSpeed)
+    steps(var(--typewriterCharacters)) 0.4s forwards;
+}
+h1::after {
+  width: 0.8em;
+  background: rgb(41, 41, 41);
+  animation: typewriter var(--typewriterSpeed)
+      steps(var(--typewriterCharacters)) 0.4s forwards,
+    blink 0.8s steps(var(--typewriterCharacters)) infinite;
+}
+@keyframes blink {
+  to {
+    background: rgb(235, 235, 235);
+  }
+}
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+@keyframes fade {
+  to {
+    opacity: 0;
+  }
+}

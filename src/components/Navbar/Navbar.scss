@@ -1,0 +1,39 @@
+#TopNav {
+  animation: appearTop;
+  animation-duration: 2s;
+  margin-top: -0.2em;
+}
+#TopNav a:hover {
+  background: rgb(24, 24, 24);
+  color: rgb(235, 235, 235);
+}
+nav a {
+  font-size: clamp(1.4rem, 4.5vw, 2rem);
+  text-decoration: none;
+  color: rgb(32, 32, 32);
+  font-weight: 900;
+  padding: 0.2em;
+}
+#Sorting {
+  order: 0;
+  border-bottom-right-radius: 20px;
+}
+#empty {
+  flex: 2;
+}
+#Github {
+  order: 1;
+  border-bottom-left-radius: 20px;
+}
+#Login {
+  order: 2;
+}
+@keyframes appearTop {
+  from {
+    margin-top: -3em;
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

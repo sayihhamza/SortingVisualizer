@@ -1,0 +1,62 @@
+#Parent {
+  position: static;
+  display: flex;
+  justify-content: center;
+  padding-right: 8vw;
+  padding-left: 10vw;
+  padding-top: 0;
+  width: 100%;
+  flex-direction: row;
+  height: 6vh;
+  margin-top: -0.6em !important;
+  padding-top: 0 !important;
+}
+#Generate {
+  font-weight: 600;
+  margin-top: -0.2em !important;
+}
+svg.icns {
+  margin-top: -0.5em !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+svg.icns:hover {
+  background-color: #cecece;
+  cursor: pointer;
+  border-radius: 5em;
+}
+@media screen and (max-width: 800px) {
+  #Parent {
+    height: 15vh;
+    flex-direction: column !important;
+    margin-top: -1.5em !important;
+  }
+  #Element2 {
+    width: 100% !important;
+  }
+  #Element1 {
+    width: 100% !important;
+  }
+  .icns {
+    margin-left: 0.7rem !important;
+    width: 7vw !important;
+    height: 7vh !important;
+  }
+  #Generate {
+    margin-left: 0 !important;
+    margin-top: -0.2rem !important;
+    height: 6vh !important;
+  }
+  #Slider {
+    margin-left: 2.2rem !important;
+    width: 65% !important;
+  }
+}
+#Element2 {
+  width: 50%;
+  float: right;
+}
+#Element1 {
+  width: 50%;
+  float: left;
+}

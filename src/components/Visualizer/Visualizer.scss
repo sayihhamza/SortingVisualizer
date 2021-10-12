@@ -1,0 +1,13 @@
+#Visualizer {
+  animation: appear;
+  animation-duration: 1s;
+  margin-top: 3em;
+}
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

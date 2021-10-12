@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+# SortingVisualizer
+<h2>A Responsive sorting application for visualizing various sorting algorithms created using React framework.</h2>
+<img src="https://github.com/sayihhamza/SortingVisualizer/blob/main/WebsiteVersion.gif" alt="Databay showcase gif" title="Databay showcase gif" width="570" height="350" align="left" />
+<img src="https://github.com/sayihhamza/SortingVisualizer/blob/main/MobileVersion.gif" alt="Databay showcase gif" title="Databay showcase gif" width="200"
+     height="350"align="right"/>
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+     <h3>This repo is an attempt to help in learning popular sorting algorithms by visualization</h3>
+Helps to
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- understand the working of sorting algorithm
+- check total swaps required
+- check total comparisions
+- compare algorithms side by side
+- know the time taken (time is just an approximate unit for comparision)
 
-## Available Scripts
+Features
 
-In the project directory, you can run:
+- Sort any given array of 3 digits positive integers
+- Alter the speed of execution
+- Start, pause and reset the execution
+- Generate random array of numbers of sorting
 
-### `npm start`
+### Technologies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React with hooks
+- [Styled components](https://styled-components.com/) + [React material](https://material-ui.com/) (css and component libraries)
+- [Zustand](https://github.com/pmndrs/zustand) (hooks based state management library)
+- [Vite](https://vitejs.dev/) (Bundler)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Features built using
 
-### `npm test`
+- Animations are done using pure CSS and uses [FLIP principle](https://aerotwist.com/blog/flip-your-animations/)
+- Flex is used for array display and manipulation of positions (flex order property)
+- JavaScript async generators are used heavily for the controlled execution of algorithms
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Run in your local
 
-### `npm run build`
+- ```git clone https://github.com/sayihhamza/SortingVisualizer.git```
+- ```npm install``` (after navigating inside the directory)
+- ```npm run dev```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
