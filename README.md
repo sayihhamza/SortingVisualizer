@@ -1,4 +1,5 @@
 # SortingVisualizer
+
 <h2>A Responsive sorting application for visualizing various sorting algorithms created using React framework.</h2>
 <img src="https://github.com/sayihhamza/SortingVisualizer/blob/main/WebsiteVersion.gif" alt="Databay showcase gif" title="Databay showcase gif" width="570" height="350" align="left" />
 <img src="https://github.com/sayihhamza/SortingVisualizer/blob/main/MobileVersion.gif" alt="Databay showcase gif" title="Databay showcase gif" width="200"
@@ -23,9 +24,9 @@ Features
 ### Technologies
 
 - React with hooks
+- Typescript
 - [Styled components](https://styled-components.com/) + [React material](https://material-ui.com/) (css and component libraries)
 - [Zustand](https://github.com/pmndrs/zustand) (hooks based state management library)
-- [Vite](https://vitejs.dev/) (Bundler)
 
 ### Features built using
 
@@ -35,8 +36,6 @@ Features
 
 ### Run in your local
 
-- ```git clone https://github.com/sayihhamza/SortingVisualizer.git```
-- ```npm install``` (after navigating inside the directory)
-- ```npm run dev```
-
-
+- `git clone https://github.com/sayihhamza/SortingVisualizer.git`
+- `npm install` (after navigating inside the directory)
+- `npm run dev`
