@@ -1,6 +1,6 @@
 # SortingVisualizer
 
-<h2>A Responsive sorting application for visualizing various sorting algorithms created using React framework.</h2>
+<h2>A Responsive sorting application for visualizing various sorting algorithms created using React library.</h2>
 <img src="https://github.com/sayihhamza/SortingVisualizer/blob/main/WebsiteVersion.gif" alt="Databay showcase gif" title="Databay showcase gif" width="570" height="350" align="left" />
 <img src="https://github.com/sayihhamza/SortingVisualizer/blob/main/MobileVersion.gif" alt="Databay showcase gif" title="Databay showcase gif" width="200"
      height="350"align="right"/>
