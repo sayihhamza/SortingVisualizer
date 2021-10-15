@@ -38,4 +38,4 @@ Features
 
 - `git clone https://github.com/sayihhamza/SortingVisualizer.git`
 - `npm install` (after navigating inside the directory)
-- `npm run dev`
+- `npm start`
