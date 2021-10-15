@@ -30,7 +30,7 @@ Features
 
 ### Features built using
 
-- Animations are done using pure CSS and uses [FLIP principle](https://aerotwist.com/blog/flip-your-animations/)
+- Animations are done using [FLIP principle](https://aerotwist.com/blog/flip-your-animations/)
 - Flex is used for array display and manipulation of positions (flex order property)
 - JavaScript async generators are used heavily for the controlled execution of algorithms
 
