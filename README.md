@@ -16,7 +16,7 @@ Helps to
 
 Features
 
-- Sort any given array of 3 digits positive integers
+- Sort any given array of 2 digits positive integers
 - Alter the speed of execution
 - Start, pause and reset the execution
 - Generate random array of numbers of sorting
