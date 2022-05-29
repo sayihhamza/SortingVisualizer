@@ -8,7 +8,7 @@
 <img src="https://github.com/sayihhamza/SortingVisualizer/blob/main/MobileVersion.gif" alt="Databay showcase gif" title="Databay showcase gif" width="180"
      height="350"align="right"/>
      </p>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<!-- <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> -->
      <h3>This repo is an attempt to help in learning popular sorting algorithms by visualization</h3>
 Helps to
 
